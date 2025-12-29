@@ -23,5 +23,4 @@ for i in range(1,101):
         print(i,"is prime no.")
     else:
         print(i,"is not prime no.")
-
 print("****************prime number *****************************")
