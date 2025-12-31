@@ -15,5 +15,5 @@ for i in range(11):
 
 for i in range(12):
     if i ==8:
-     pass
+                     pass
     print(i)
