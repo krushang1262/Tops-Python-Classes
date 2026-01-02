@@ -1,4 +1,4 @@
-num = 5
+num = 122
 temp = num
 rev =0
 while num !=0:
@@ -6,7 +6,7 @@ while num !=0:
     rev = (rev*10)+rem
     num = num//10
     
-    if temp == rev:
-        print("Palindrome")
-    else:
-        print("not palindrome")
+if temp == rev:
+    print("Palindrome")
+else:
+    print("not palindrome")
