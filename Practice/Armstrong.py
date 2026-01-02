@@ -1,14 +1,13 @@
-number = 120
-tmp = number
-sum = 0 
+num = 120
+temp = num
+sum =0
 
-while number !=0:
-    rem = number %10
-    sum = (sum*10)+rem
-    number = number//10
+while num !=0:
+    rem = num%10
+    sum = (sum**3)
+    num = num//10
     
-    if tmp == sum:
-        print("Armstrong")
+    if temp == sum:
+        print("armstrong")
     else:
-        pass
-        # print("not armstrong")
+        print("not armstrong")
