@@ -1,13 +1,13 @@
-num = 120
+num = 153
 temp = num
 sum =0
 
 while num !=0:
     rem = num%10
-    sum = (sum**3)
+    sum+=(rem**3)
     num = num//10
     
-    if temp == sum:
-        print("armstrong")
-    else:
-        print("not armstrong")
+if temp == sum:
+    print("armstrong")
+else:
+    print("not armstrong")
