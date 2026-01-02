@@ -1,4 +1,3 @@
-num = 5
 data = 1
 for i in range(1, 6):
     data = data * i

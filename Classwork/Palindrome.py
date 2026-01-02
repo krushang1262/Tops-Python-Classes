@@ -1,5 +1,5 @@
 num = 54321
-temp =num
+temp = num
 rev = 0
 while num != 0:
     rem = num%10
