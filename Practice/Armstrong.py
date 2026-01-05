@@ -1,13 +1,15 @@
-num = 121
+num = 1569
 temp = num
-rep = 0
+digit = len(str(num))
+rev = 0
 
 while num !=0:
     rem = num%10
-    rep+=(rem**3)
+    rev+=(rem**digit)
     num = num//10
-
-if temp == rep:
+    
+if temp == rev:
     print("armstrong")
 else:
     print("not armstrong")
+    
