@@ -1,0 +1,23 @@
+1) What are the types of Applications? 
+=> Applications are classified into Desktop, Web, Mobile applications.
+
+=> Desktop Applications
+ Run on a computer (Windows / Linux / Mac) ex: calc, notpad, msword
+
+=> Web Applications
+Run on the internet using a browser ex: Gmail, Facebook, Online Shopping websites
+
+=> Mobile Applications
+Run on smartphones (Android / iOS) ex: WhatsApp, Instagram, Paytm
+
+2) What is programing? 
+=> Programming is the process of writing instructions for a computer so that it can perform a specific task.
+
+3) What is Python? 
+=> Python is a high-level, interpreted, and easy-to-learn programming language used to develop different types of applications.
+
+7) How memory is managed in Python? 
+=> Python managed the memory automatically, so the programmer does not need to allocate or free memory manually.
+
+8) What is the purpose continuing statement in python?
+=> The continue statement is used inside loops to skip the current iteration and move to the next iteration of the loop.
