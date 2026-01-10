@@ -123,3 +123,11 @@ num.extend(alpha)
 alpha.extend(num)
 print(num)
 print(alpha)
+
+# list to tuple or tuple to list
+
+tup = (1,2,3,4,5,6,7,8,9)
+tup = list(tup)
+tup.append(10)
+tup = tuple(tup)
+print("tup to list and list to tup",tup)
