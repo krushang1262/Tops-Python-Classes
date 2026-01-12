@@ -21,3 +21,7 @@ Run on smartphones (Android / iOS) ex: WhatsApp, Instagram, Paytm
 
 8) What is the purpose continuing statement in python?
 => The continue statement is used inside loops to skip the current iteration and move to the next iteration of the loop.
+
+17) What are negative indexes and why are they used?
+=> Negative indexes are used to access elements from the end of a sequence (like string, list, tuple). 
+=> Negative indexes are used because they make it easy to work with elements from the end of a sequence.
