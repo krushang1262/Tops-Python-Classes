@@ -4,7 +4,7 @@ print("hello \\\" world")
 
 print("""
       hello
-       world
+      world
       krushang
       here
       """)
@@ -17,7 +17,7 @@ print("Java","python","C,C++",sep="|")
 
 name="Krushang"
 email="krushang@gmail.com"
-print("old: name is {} and email is {}".format(name,email)) # old
+print("old: name is {} and email is {}".format(name,email)) 
 print(f"new: name is {name} and email is {email}")
 
 print(r"hello \\\\\\\" baby")
