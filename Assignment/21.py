@@ -15,3 +15,19 @@ if txt !=0:
         print(text[0:]+"in")
 else:
     print("string is empty. pla entered the string  ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -64,7 +64,7 @@ while num !=0:
 # 11 Check whether a number is prime or not.
 
 n1 = int(input("Enter a number to check it is prime or not "))
-for i in range(2,n1):
+for i in range(2, n1):
     if n1 % i ==0:
         print(f"{n1} is prime")
         break
@@ -222,6 +222,16 @@ while num !=0:
 print(sum)
     
 # 29 Find the largest digit in a number
+
+num = int(input("Enter the number here.. "))
+largest = 0
+
+while num !=0:
+    digit = num %10
+    if digit > largest:
+        largest = digit
+    num = num//10
+print(largest)
 
 # 30 Print Fibonacci series up to n terms.
 
