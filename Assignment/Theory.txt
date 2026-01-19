@@ -25,3 +25,23 @@ Run on smartphones (Android / iOS) ex: WhatsApp, Instagram, Paytm
 17) What are negative indexes and why are they used?
 => Negative indexes are used to access elements from the end of a sequence (like string, list, tuple). 
 => Negative indexes are used because they make it easy to work with elements from the end of a sequence.
+
+25) What is List? How will you reverse a list?
+=> A list is a mutable, ordered collection of elements in Python.
+A list can be reversed using the reverse() method, slicing, or a loop
+
+26) How will you remove last object from a list?
+=> The last object of a list can be removed using the pop() method
+
+28) Differentiate between append() and extend() methods?
+=> append() method add the single item. and extend() method add the multiple items in the list.
+
+30) How will you compare two lists? 
+=> Two lists can be compared using == operator.
+
+43) What is tuple? Difference between list and tuple
+=> A tuple is an ordered, immutable collection of elements in Python.
+The main difference between list and tuple is that a list is mutable while a tuple is immutable. 
+
+47) How will you create a dictionary using tuples in python?
+=> You can create a dictionary from tuples when each tuple contains a key–value pair.
