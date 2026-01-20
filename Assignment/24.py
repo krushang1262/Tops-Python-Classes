@@ -3,10 +3,9 @@
 def my_middle_string_add_funct():
     text = input("Enter the string: ")
     newtext = "Hello"
-    abc = len(text) // 2
-    addedInMiddleOfString = text[:abc] + " " + newtext +" " + text[abc:]
+    divEqualLen = len(text) // 2
+    addedInMiddleOfString = text[:divEqualLen] + " " + newtext +" " + text[divEqualLen:]
     return addedInMiddleOfString
 
 finopt = my_middle_string_add_funct()
 print(finopt)
-    
