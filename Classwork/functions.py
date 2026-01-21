@@ -97,3 +97,14 @@ def my_calculator():
     return opt
     
 my_calculator()
+
+# recursion
+
+def my_recursion(num):
+    print(num * num)
+    num+=1
+    
+    if num <=10:
+        my_recursion(num)
+    
+my_recursion(10)
