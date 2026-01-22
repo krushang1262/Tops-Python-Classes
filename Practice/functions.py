@@ -48,7 +48,6 @@ def my_fact(n):
 print(my_fact(5))
 
 def my_fact2(n):
-    fact = 1
     if n == 0 or n == 1:
         return 1
     else:
