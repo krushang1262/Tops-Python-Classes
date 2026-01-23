@@ -7,6 +7,7 @@ print(next(k))
 print(next(k))
 
 #generator
+
 def square(s):
     for i in range(s):
         yield i*i
