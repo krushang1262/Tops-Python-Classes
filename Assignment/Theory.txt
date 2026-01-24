@@ -48,3 +48,11 @@ The main difference between list and tuple is that a list is mutable while a tup
 
 47) How will you create a dictionary using tuples in python?
 => You can create a dictionary from tuples when each tuple contains a key–value pair.
+
+51) How Do You Traverse Through a Dictionary Object in Python?
+=> A Dictionary python store the key value pair not the index based position like list.
+=> Traversal is done through the key value or both together  instead of indexed number.
+
+52) How Do You Check the Presence of a Key in A Dictionary? 
+=> The presence of a key in a dictionary is checked using the 
+membership operator, which verifies whether the specified key exists among the dictionary’s keys.
