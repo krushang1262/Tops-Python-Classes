@@ -56,3 +56,24 @@ The main difference between list and tuple is that a list is mutable while a tup
 52) How Do You Check the Presence of a Key in A Dictionary? 
 => The presence of a key in a dictionary is checked using the 
 membership operator, which verifies whether the specified key exists among the dictionary’s keys.
+
+65) How Many Basic Types of Functions Are Available in Python? 
+=> There are two types of functions available in python.
+=> [Built in functions] and [user define functions]
+
+66) How can you pick a random item from a list or tuple?
+=> using the random modules and pick the random item.
+by using the function random.choice() we can easily pick the random item
+
+67) How can you pick a random item from a range? 
+=> To pick a random item from a range, Python gives us 2 simple ways.
+=> random.choice() and random.randint()
+
+68) How can you get a random number in python? 
+=> using random.random() and random.randint()
+
+69) How will you set the starting value in generating random numbers? 
+=> We use random.seed(value) to set the starting value for generating random numbers in Python
+
+70) How will you randomize the items of a list in place? 
+=> To randomize the items of a list in place, Python provides random.shuffle().
