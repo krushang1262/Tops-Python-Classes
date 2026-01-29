@@ -53,3 +53,27 @@
 #        print("\n2nd read")
 #        data = f.read()
 #        print(data)
+
+# Replace a word in a file
+
+# with open("D:/Python Practice/Practice/HandleFile/Practice.txt","r")as f:
+#         data = f.readlines()
+# with open("D:/Python Practice/Practice/HandleFile/Practice.txt","w")as wf:
+#        for dt in data:
+#            wf.write(dt.replace("Krushang","John"))
+
+# Print pointer position
+
+# with open("D:/Python Practice/Practice/HandleFile/Practice.txt","r")as f:
+#     f.seek(10)
+#     x = f.read()
+#     print(x)
+
+# Read last 10 characters of a file
+
+# with open("D:/Python Practice/Practice/HandleFile/Practice.txt", "r") as f:
+#     f.seek(0,2)
+#     size = f.tell()
+#     x = f.seek(size - 10)
+    
+#     print(f.read())
