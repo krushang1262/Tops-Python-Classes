@@ -77,3 +77,10 @@ by using the function random.choice() we can easily pick the random item
 
 70) How will you randomize the items of a list in place? 
 => To randomize the items of a list in place, Python provides random.shuffle().
+
+71) What is File function in python? What are keywords to create and write file.
+=> In Python, file functions are used to create, read, write, and modify files ex, .txt,.csv,.xlsx, .docx, .jpg, etc.
+=> The keywords to create and write a file in Python are w, a, and x.
+=> w - write in the file
+=> a - append in the file
+=> x = for crerate the file
