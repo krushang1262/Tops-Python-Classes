@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class Account:
+class Account(ABC):
     balance = 0
     
     @abstractmethod
@@ -25,9 +25,26 @@ class SavingAccount(Account):
        else:
            self.balance -= amt
            
-s = SavingAccount()
-s.checkBalance()
-s.deposit(5000)
-s.checkBalance()
-s.withdraw(2000)
-s.checkBalance()
+# s = SavingAccount()
+# s.deposit(5000)
+# s.withdraw(4000)
+# s.withdraw(1000)
+# s.checkBalance()
+
+class Loan(Account):
+    def deposit(self, amt):
+        if amt > self.balance:
+            print("amount is greater than loan amount")
+        else:
+            self.balance -= amt
+    
+    def withdraw(self, amt):
+        self.balance += amt
+        
+l = Loan()
+l.withdraw(10000)
+l.deposit(5000)
+l.withdraw(50000)
+l.deposit(55000)
+
+l.checkBalance()
