@@ -1,13 +1,11 @@
 import requests
 
-cn = "London"
-url = f"https://nominatim.openstreetmap.org/search?city={cn}&format=json&limit=1"
+cn = input("Enter city name: ")
 
 headers = {
-    "User-Agent": "my-app"   # Required by Nominatim
+    "User-Agent": "my-app"   
 }
 
-response = requests.get(url, headers=headers)
-data = response.json()
+data = requests.get(f"https://nominatim.openstreetmap.org/search?city={cn}&format=json&limit=1", headers=headers).json()
 
-print(data[0]["lat"], data[0]["lon"])
+print("Latitude",data[0]["lat"], "and", "Longititude", data[0]["lon"])
