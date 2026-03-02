@@ -3,7 +3,7 @@
 try:
     a = int(input("Enter only odd numbers: "))
 
-    if a % 2 != 0:
+    if a % 2 == 0:
         print("You entered an odd number:", a)
     else:
         raise Exception("Even number is not allowed")
