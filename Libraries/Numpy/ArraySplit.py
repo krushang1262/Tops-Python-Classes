@@ -13,6 +13,5 @@ a = np.array([
     ]
 ])
 
-x = np.array_split(a,2,axis=2)
-print(x)
-# print(a.shape)
+x = np.array_split(a,1, axis=2)
+print("x array: \n\n",x)
