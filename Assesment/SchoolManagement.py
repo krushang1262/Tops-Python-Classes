@@ -11,7 +11,6 @@ while ch != 'no':
                 4: Remove Student Record
                 """))
 
-
     if choice == 1:
         print("*** Enter the Student Details ***")
         
@@ -66,9 +65,61 @@ while ch != 'no':
             print(reader.readlines())
             
     elif choice == 3:
-        print("")
+        print("*** Update the Student Details ***")
+
+        try:
+            with open('D:/Python Practice/Assesment/School.json', "r") as f:
+                data = json.load(f)
+        except:
+            data = {}
+
+        sid = input("Enter Student ID: ")
+
+        if sid in data:
+            print("1. Update Mobile")
+            print("2. Update Class")
+            ch2 = input("Enter choice: ")
+
+            if ch2 == "1":
+                mobile = input("Enter new mobile: ")
+                if mobile.isdigit() and len(mobile) == 10:
+                    data[sid]["mobile"] = mobile
+                    print("Mobile Updated")
+                else:
+                    print("Invalid mobile")
+
+            elif ch2 == "2":
+                
+                studentclass = int(input("Enter new class: "))
+                if  studentclass in range(1,13):
+                    data[sid]["class"] = studentclass
+                    print(" Class Updated")
+                else:
+                    print("Invalid class")
+            else:
+                print("Invalid choice")
+
+            with open('D:/Python Practice/Assesment/School.json', "w") as f:
+                json.dump(data, f)
+        else:
+            print("Student not found")
                 
     elif choice == 4:
-        print("")
+        
+        print("*** Delete the Student Details ***")
+        
+        with open('D:/Python Practice/Assesment/School.json',"r")as r:
+            data = json.load(r)
+            
+            sid = input("Enter the Student Id: ")
+            
+            if sid in data:
+                data.pop(sid)
+                print("Student Record Delete")
+                
+                with open('D:/Python Practice/Assesment/School.json',"w")as w:
+                    json.dump(data,w)
+            else:
+                print("Student Id not Found")
     
-    ch = input("are you continue yes or no ? ")
+    ch = input("are you continue yes or no ? ").lower()
