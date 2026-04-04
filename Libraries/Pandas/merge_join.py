@@ -1,16 +1,16 @@
 import pandas as pd
 
-# df1 = pd.DataFrame({'ID':[1,2,3],'Name':['Raj','Hiren','Sachin']})
-# df2 = pd.DataFrame({'ID':[2,3,4],'Score':[20,25,36]})
+df1 = pd.DataFrame({'ID':[1,2,3],'Name':['Raj','Hiren','Sachin']})
+df2 = pd.DataFrame({'ID':[2,3,4],'Score':[20,25,36]})
 
-# df = pd.merge(df1,df2, on='ID', how='inner')
-# ndf1 = pd.merge(df1,df2, on='ID', how='outer')
-# ndf2 = pd.merge(df1,df2, on='ID', how='left')
-# ndf3 = pd.merge(df1,df2, on='ID', how='right')
-# print("merge",df)
-# print("merge",ndf1)
-# print("merge",ndf2)
-# print("merge",ndf3)
+df = pd.merge(df1,df2, on='ID', how='inner')
+ndf1 = pd.merge(df1,df2, on='ID', how='outer')
+ndf2 = pd.merge(df1,df2, on='ID', how='left')
+ndf3 = pd.merge(df1,df2, on='ID', how='right')
+print("merge",df)
+print("merge",ndf1)
+print("merge",ndf2)
+print("merge",ndf3)
 
 
 jdf1 = pd.DataFrame({'Name':['Raj','Hiren','Sachin']}, index=[1,2,3])
